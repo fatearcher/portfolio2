@@ -1,0 +1,245 @@
+@charset "utf-8";
+
+::-moz-selection {
+  background: #dedede;
+  color: #333;
+}
+
+::selection {
+  background: #dedede;
+  color: #333;
+}
+
+.clearfix {
+  display: block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+/*  
+---------------------------------------------------------------------------*/
+body {
+  color: #000;
+  font-size: 14px;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,
+    "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
+  /* 	font-family: "FOT-セザンヌ Pro M", "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; */
+  line-height: 1;
+  background: #f9f9f9;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 1em;
+}
+
+/* rollhover
+------------------*/
+a {
+  color: #000;
+  text-decoration: text-decoration;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+}
+
+a:hover {
+  color: #ccc !important;
+  text-decoration: none;
+}
+
+a img {
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+a:hover img {
+  opacity: 0.5;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  filter: alpha(opacity=50);
+  /* IE lt 8 */
+  -ms-filter: alpha(opacity=50);
+  /* IE 8 */
+}
+
+/* inside
+---------------------------------------------------------------------------*/
+
+body.inside div#wrapper {
+  width: 1040px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+/*-------------------------------------*/
+
+body.inside header {
+  width: 1040px;
+  margin: 80px 0 150px;
+  position: relative;
+}
+
+body.inside header h1 {
+  margin: 0 0 35px 0px;
+}
+
+body.inside nav {
+  font-family: "Adobe Garamond Pro", "Garamond Premr Pro", "Garamond",
+    "EB Garamond", "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W6",
+    "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body.inside nav ul li {
+  margin-bottom: 14px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: right;
+}
+
+body.inside nav ul li:last-child {
+  margin-bottom: 0;
+}
+
+body.inside li#gNavi3 {
+  color: #999;
+  text-decoration: line-through !important;
+}
+
+body.inside nav ul li:first-child {
+  margin-right: 0;
+  background: none;
+  padding-left: 0;
+}
+
+/*-------------------------------------*/
+#mainContents {
+  /* 	padding:0 10px; */
+  position: relative;
+}
+
+/*-------------------------------------*/
+/* sideBar */
+
+body.inside .sideBar {
+  width: 200px;
+  float: right;
+  margin-top: 95px;
+}
+
+body.inside .blockTit {
+  font-family: "Adobe Garamond Pro", "Garamond Premr Pro", "Garamond",
+    "EB Garamond", "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W6",
+    "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+
+body.inside .sideBar p.thumbnail {
+  background: #efefef;
+  display: block;
+  margin-bottom: 15px;
+}
+
+body.inside .sideBar p.thumbnail img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+body.inside .sideBar section {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.sideBar ul {
+}
+.sideBar ul li {
+  display: block;
+  margin-bottom: 20px;
+}
+.sideBar strong {
+  margin-bottom: 4px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.7;
+  display: block;
+}
+
+.sideBar em {
+  margin-bottom: 24px;
+  font-style: italic;
+  color: #999;
+  font-size: 93%;
+  letter-spacing: 1px;
+}
+
+#categoryList ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+#categoryList ul li a {
+  padding: 10px 15px;
+  border: 1px dotted #666;
+  display: block;
+}
+
+/* prevnext
+---------------------------------------------------------------------------*/
+
+#pageLink {
+  width: 100%;
+}
+
+#pageLink li {
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#pageLink li#prev {
+  width: 49%;
+  float: left;
+}
+
+#pageLink li#next {
+  width: 49%;
+  float: right;
+  text-align: right;
+}
+
+/*-------------------------------------*/
+body.inside footer {
+  clear: both;
+  margin: 150px 0 60px;
+  text-align: left;
+  font-style: italic;
+  font-size: 10px;
+  letter-spacing: 1px;
+}

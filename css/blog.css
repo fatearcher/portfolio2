@@ -1,0 +1,187 @@
+1@charset "UTF-8";
+
+.blog-list {
+	overflow:hidden;
+	position:relative;
+	top:-28px;
+	font-family:"Adobe Garamond Pro" ,"Garamond Premr Pro" ,"Garamond",'EB Garamond',"游明朝体","Yu Mincho",YuMincho,"ヒラギノ明朝 ProN W6","HiraMinProN-W6","HG明朝E","ＭＳ Ｐ明朝","MS PMincho",serif;
+}
+.archivePostWrap {
+    justify-content: space-between;
+    display: flex;
+	padding-top:40px;
+	overflow:hidden;
+	width: 1040px;
+	margin: 0 auto;
+}
+
+.archivePostWrap .post {
+	width:462px;
+	position:relative;
+	text-align:center;
+	margin:0 0 60px 90px;
+  font-size: 15px;
+	letter-spacing:2px;
+}
+
+.archivePostWrap .post:nth-child(3n-2) {
+	margin-left:0;
+}
+
+.archivePostWrap .post > h1 {
+	margin:20px 0 4px;
+	line-height:1.6;
+	font-size:16px;
+	letter-spacing:1px;
+}
+
+.archivePostWrap .post h2,.archivePostWrap .post h3 {
+	font-size:12px;
+	letter-spacing:1px;
+}
+
+.archivePostWrap .post h2 a,.archivePostWrap .post h3 a {
+	color:#999;
+}
+
+.archivePostWrap .post h2,.archivePostWrap .post h2 ul,.archivePostWrap .post h2 ul li {
+	display:inline;
+}
+
+.archivePostWrap .post h3 {
+	display:inline;
+}
+
+
+.archivePostWrap .post p.thumb {
+	margin-bottom:20px;
+}
+
+/*-------------------------------------*/
+/* singlePostWrap */
+/*-------------------------------------*/
+section.singlePostWrap,section.contentsWrap {
+/* 	float:left; */
+	width:1040px;
+	margin-bottom:6em;
+}
+
+section.singlePostWrap article.post {
+	margin-bottom:12em;
+	font-size:14px;
+	line-height:2.1;
+}
+
+.entryTitleSet h1 {
+	font-size:16px;
+	letter-spacing:.05em;
+	margin-bottom:6px;
+	line-height:1.7;
+}
+
+section.singlePostWrap h1 {
+	font-size:22px;
+	letter-spacing:.05em;
+	margin-left:-2px;
+}
+
+.singlePostWrap h1 a {
+	color:#121212;
+	text-decoration:none;
+}
+
+section.singlePostWrap h2 {
+	line-height:1;
+	margin-top:20px;
+	font-size: 14px;
+}
+
+section.singlePostWrap h2 ul,section.singlePostWrap h2 li {
+	display:inline;
+}
+
+section.singlePostWrap h2 li {
+	margin-right:.1em;
+	font-size:14px;
+	letter-spacing: 0.05em;
+}
+
+section.singlePostWrap h2 a {
+	text-decoration:none;
+}
+
+section.singlePostWrap h3 {
+	display:block;
+	padding-top: 4px;
+	letter-spacing:0.07em;
+	font-size: 14px;
+}
+
+section.singlePostWrap h4 {
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+.post p {
+	display:block;
+	margin-bottom:25px;
+	font-size:15px;
+	letter-spacing: 0.04em;
+	line-height: 1.9;
+	font-feature-settings : "palt" 1;
+}
+
+section.singlePostWrap .post figure{
+  margin: 15px 0 20px
+}
+
+
+section.singlePostWrap .post img {
+  display: inline-block;
+	margin-bottom: 10px;
+  box-shadow: 3px 1px 7px rgba(0,0,0,0.06);}	
+/*
+	border: 30px solid #eaeaea;
+	padding: 30px;
+*/
+}
+
+
+
+section.singlePostWrap .wp-block-gallery {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.singlePostWrap .content {
+	margin-top:40px;
+}
+
+.wp-pagenavi {
+	clear:both;
+	margin:3em auto 0;
+	padding-top:100px;
+	text-align:center;
+	font-size:15px;
+}
+
+div.wp-pagenavi span.pages {
+	display:none;
+}
+
+div.wp-pagenavi a,div.wp-pagenavi span.current {
+	padding:0 .8em;
+}
+
+div.wp-pagenavi span.current {
+	color:#aaa;
+}
+
+a.previouspostslink,a.last {
+	color:#999;
+}
+
+body.l-1040 .sideBar {
+	display:none!important;
+}
