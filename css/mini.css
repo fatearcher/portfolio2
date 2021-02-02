@@ -1,0 +1,531 @@
+@charset "UTF-8";
+
+h2#pageTitle {
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-bottom: 30px;
+
+  font-size: 18px;
+  font-family: "Adobe Garamond Pro", "Garamond Premr Pro", "Garamond",
+    "EB Garamond", "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W6",
+    "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+  letter-spacing: 0.03em;
+  line-height: 1;
+}
+
+/* .contentsWrap{
+------------------------------------*/
+
+.contentsWrap p.mainImg {
+  margin-bottom: 60px;
+}
+
+.contentsWrap p.mainImg img {
+  width: 100%;
+  height: auto;
+}
+
+.contentsWrap h1 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+.contentsWrap h2 {
+  margin-bottom: 25px;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.contentsWrap h3 {
+  font-size: 12px;
+  line-height: 2.1;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  margin-bottom: 45px;
+  font-feature-settings: "palt" 1;
+}
+
+.contentsWrap h3 br {
+  display: none;
+}
+
+.contentsWrap strong {
+  display: block;
+  margin: 80px 0 25px;
+  position: relative;
+  left: -2px;
+  font-family: "Adobe Garamond Pro", "Garamond Premr Pro", "Garamond",
+    "EB Garamond", "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W6",
+    "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+  font-size: 20px;
+}
+
+.contentsWrap ul {
+}
+.contentsWrap ul li {
+  line-height: 1.8;
+  display: block;
+  margin-bottom: 0.8em;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  font-feature-settings: "palt" 1;
+}
+@charset "utf-8";
+
+/*
+Theme Name: y2 ver5
+Theme URI: 
+Description: 
+Author: 
+Version: 
+Tags: 
+*/
+::-moz-selection {
+  background: #dedede;
+  color: #333;
+}
+
+::selection {
+  background: #dedede;
+  color: #333;
+}
+
+.clearfix {
+  display: block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.clearfix:after {
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+/*  
+---------------------------------------------------------------------------*/
+body {
+  color: #000;
+  font-size: 14px;
+  font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,
+    "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo,
+    sans-serif;
+  line-height: 1;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 1em;
+}
+
+/* rollhover
+------------------*/
+a {
+  color: #000;
+  text-decoration: text-decoration;
+  transition: 0.2s linear;
+  -webkit-transition: 0.2s linear;
+  -moz-transition: 0.2s linear;
+  -o-transition: 0.2s linear;
+  -ms-transition: 0.2s linear;
+}
+
+a:hover {
+  color: #ccc !important;
+  text-decoration: none;
+}
+
+a img {
+  -webkit-transition: opacity 0.2s ease-out;
+  -moz-transition: opacity 0.2s ease-out;
+  -ms-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+}
+
+a:hover img {
+  opacity: 0.5;
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  filter: alpha(opacity=50);
+  /* IE lt 8 */
+  -ms-filter: alpha(opacity=50);
+  /* IE 8 */
+}
+
+/* inside
+---------------------------------------------------------------------------*/
+
+body.inside div#wrapper {
+  /* 	width:980px; */
+  margin: 0 auto;
+  text-align: left;
+}
+
+/*-------------------------------------*/
+
+body.inside header {
+  margin: 35px auto 0px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+body.inside header h1 {
+  margin: 5px 0 35px 25px;
+  float: left;
+  /* 	text-align: center; */
+}
+
+body.inside nav {
+  font-family: "Adobe Garamond Pro", "Garamond Premr Pro", "Garamond",
+    "EB Garamond", "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W6",
+    "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+  overflow: hidden;
+  text-align: right;
+}
+
+body.inside nav ul {
+  padding-right: 35px;
+}
+body.inside nav ul li {
+}
+
+body.inside nav ul li a {
+  display: inline-block;
+  padding: 6px 0;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+body.inside nav ul li:last-child {
+  margin-bottom: 0;
+}
+
+body.inside nav ul li:first-child {
+  margin-right: 0;
+  background: none;
+  padding-left: 0;
+}
+
+/*-------------------------------------*/
+#mainContents {
+  width: 88%;
+  margin: 0 auto;
+  position: relative;
+}
+
+/*-------------------------------------*/
+/* sideBar */
+
+body.inside .sideBar {
+  margin-top: 95px;
+}
+
+body.inside .blockTit {
+  font-family: "Adobe Garamond Pro", "Garamond Premr Pro", "Garamond",
+    "EB Garamond", "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 ProN W6",
+    "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+
+body.inside .sideBar p.thumbnail {
+  background: #efefef;
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+  height: auto;
+}
+
+body.inside .sideBar p.thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+body.inside .sideBar section {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.sideBar ul {
+  overflow: hidden;
+}
+.sideBar ul li {
+  display: block;
+  margin-bottom: 20px;
+  width: 48%;
+  float: left;
+}
+
+.sideBar ul li:nth-child(2n) {
+  margin-left: 4%;
+}
+
+.sideBar strong {
+  margin-bottom: 4px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.7;
+  display: block;
+}
+
+.sideBar em {
+  margin-bottom: 24px;
+  color: #999;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+#categoryList ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+#categoryList ul li a {
+  padding: 10px 15px;
+  border: 1px dotted #666;
+  display: block;
+}
+
+/* prevnext
+---------------------------------------------------------------------------*/
+
+#pageLink {
+  /* 	width:700px; */
+}
+
+#pageLink li {
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#pageLink li#prev {
+  width: 49%;
+  float: left;
+}
+
+#pageLink li#next {
+  width: 49%;
+  float: right;
+  text-align: right;
+}
+
+/*-------------------------------------*/
+body.inside footer {
+  clear: both;
+  margin: 150px auto 30px;
+  width: 92%;
+  text-align: left;
+  font-style: italic;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+body.inside #rss {
+  text-align: center;
+  display: block;
+  font-size: 100%;
+  letter-spacing: 1px;
+}
+
+@charset "UTF-8";
+
+.blog-list {
+  display: none;
+}
+
+.archivePostWrap {
+  margin-top: 30px;
+}
+
+.archivePostWrap .post {
+  width: 48%;
+  float: left;
+  position: relative;
+  text-align: center;
+  margin: 0 0 45px 0;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.archivePostWrap .post:nth-child(2n) {
+  margin-left: 4%;
+}
+
+.archivePostWrap .post h1 {
+  margin: 20px 0 6px;
+  line-height: 1.6;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  font-feature-settings: "palt" 1;
+}
+
+.archivePostWrap .post h2,
+.archivePostWrap .post h3 {
+  font-size: 11px;
+  letter-spacing: 0.04em;
+}
+
+.archivePostWrap .post a {
+  color: #000000;
+}
+
+.archivePostWrap .post h2,
+.archivePostWrap .post h2 ul,
+.archivePostWrap .post h2 ul li {
+  display: inline;
+}
+
+.archivePostWrap .post h2 a,
+.archivePostWrap .post h3 {
+  color: #999999;
+}
+
+.archivePostWrap .post h3 {
+  display: inline;
+}
+
+.archivePostWrap .post p {
+  margin-bottom: 20px;
+}
+
+.archivePostWrap .post p img {
+  width: 100%;
+  height: auto;
+}
+
+/*-------------------------------------*/
+/* singlePostWrap */
+/*-------------------------------------*/
+
+section.singlePostWrap,
+section.contentsWrap {
+  float: left;
+  width: 100%;
+  margin-bottom: 110px;
+}
+
+section.singlePostWrap article.post {
+  margin-bottom: 12em;
+  font-size: 14px;
+  line-height: 2.1;
+}
+
+.singlePostWrap h1 {
+  font-size: 19px;
+  letter-spacing: 0.04em;
+  font-feature-settings: "palt" 1;
+  margin-left: -2px;
+}
+
+.singlePostWrap h1 a {
+  color: #121212;
+  text-decoration: none;
+}
+
+section.singlePostWrap h2,
+section.singlePostWrap h3 {
+  line-height: 1;
+}
+
+section.singlePostWrap h2 ul,
+section.singlePostWrap h2 li {
+  display: inline;
+  font-size: 14px;
+}
+
+section.singlePostWrap h2 li {
+  margin-right: 0.4em;
+  font-size: 13px;
+}
+
+section.singlePostWrap h2 a {
+  text-decoration: none;
+  letter-spacing: 0.06em;
+}
+
+section.singlePostWrap h3 {
+  display: block;
+  letter-spacing: 0.02em;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+section.singlePostWrap h4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.post p {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 13px;
+  line-height: 1.9;
+  letter-spacing: 0.08em;
+  font-feature-settings: "palt" 1;
+}
+
+.post p a {
+  word-break: break-all;
+}
+
+section.singlePostWrap .post figure {
+  margin: 5px 0 15px;
+}
+
+section.singlePostWrap .post img {
+  display: inline-block;
+  margin-bottom: 20px;
+  box-shadow: 3px 1px 7px rgba(0, 0, 0, 0.06);
+  padding-bottom: 5px;
+  width: 100%;
+  height: auto;
+}
+
+section.singlePostWrap .wp-block-gallery {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.singlePostWrap .content {
+  margin-top: 40px;
+}
+
+.wp-pagenavi {
+  clear: both;
+  margin: 3em auto 0;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 15px;
+}
+
+div.wp-pagenavi span.pages {
+  display: none;
+}
+
+div.wp-pagenavi a,
+div.wp-pagenavi span.current {
+  padding: 0 0.8em;
+}
+
+div.wp-pagenavi span.current {
+  color: #aaa;
+}
+
+a.previouspostslink,
+a.last {
+  color: #999;
+}

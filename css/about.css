@@ -41,6 +41,12 @@ h2#pageTitle {
   font-feature-settings: "palt" 1;
 }
 
+@media (max-width: 500px) {
+  .contentsWrap h3 {
+    color: aqua;
+  }
+}
+
 .contentsWrap strong {
   display: block;
   margin: 80px 0 40px;
