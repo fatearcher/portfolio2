@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+* {
+  scroll-behavior: smooth;
+}
+
 h2#pageTitle {
   letter-spacing: 1px;
   line-height: 1;
@@ -403,7 +407,7 @@ body.inside #rss {
 
 .archivePostWrap .post p img {
   width: 100%;
-  height: auto;
+  /* height: auto; */
 }
 
 /*-------------------------------------*/

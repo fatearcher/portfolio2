@@ -86,6 +86,10 @@ a:hover img {
 /* inside
 ---------------------------------------------------------------------------*/
 
+* {
+  scroll-behavior: smooth;
+}
+
 body.inside div#wrapper {
   width: 1040px;
   margin: 0 auto;
