@@ -407,6 +407,7 @@ body.inside #rss {
 
 .archivePostWrap .post p img {
   width: 100%;
+  height: 200px;
   /* height: auto; */
 }
 
