@@ -126,7 +126,7 @@ section.singlePostWrap h4 {
 .post p {
 	display:block;
 	margin-bottom:25px;
-	font-size:15px;
+	font-size:17px;
 	letter-spacing: 0.04em;
 	line-height: 1.9;
 	font-feature-settings : "palt" 1;
@@ -138,6 +138,8 @@ section.singlePostWrap .post figure{
 
 
 section.singlePostWrap .post img {
+	width: 1040px;
+	height: auto;
   display: inline-block;
 	margin-bottom: 10px;
   box-shadow: 3px 1px 7px rgba(0,0,0,0.06);}	
