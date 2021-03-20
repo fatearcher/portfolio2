@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+section#worksList {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif !important;
+  padding-top: 55px;
+  clear: both;
+}
+
+#worksList h1 {
+  margin-bottom: 60px;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+#worksList ul {
+  display: block;
+  margin-bottom: 45px;
+}
+
+#worksList ul li {
+  letter-spacing: 0.04em;
+  display: block;
+  margin-bottom: 22px;
+  position: relative;
+  text-transform: capitalize !important;
+}
+
+#worksList ul li strong {
+  font-size: 16px;
+  letter-spacing: 0.06em;
+}
+
+#worksList ul li strong em {
+  font-size: 13px;
+  color: #999;
+  padding-left: 4px;
+}
+
+#worksList ul li em {
+  color: #999;
+  padding-left: 0.7em;
+  font-size: 65%;
+}
+
+#worksList ul li em.y2 {
+  padding-right: 0.7em;
+  color: #999;
+}
+
+#worksList ul li em a {
+  color: #999;
+  text-decoration: none;
+}
+
+#worksList ul li span,
+#worksList ul li time {
+  color: #999;
+  padding-left: 0.7em;
+  font-size: 65%;
+  letter-spacing: 0.03em;
+}
+
+#worksList ul li a {
+  color: #111111;
+}
+
+#worksList p.atn {
+  margin-top: 60px;
+  font-family: "Oswald", sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
